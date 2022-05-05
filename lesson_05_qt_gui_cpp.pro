@@ -15,12 +15,14 @@ SOURCES += \
     keypressevent.cpp \
     main.cpp \
     mainwindow.cpp \
-    widgetsettings.cpp
+    widgetsettings.cpp \
+    widgettreedirs.cpp
 
 HEADERS += \
     keypressevent.h \
     mainwindow.h \
-    widgetsettings.h
+    widgetsettings.h \
+    widgettreedirs.h
 
 FORMS += \
     mainwindow.ui
@@ -33,4 +35,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 RESOURCES += \
     help.qrc \
     icons.qrc \
-    language.qrc
+    language.qrc \
+    styles.qrc

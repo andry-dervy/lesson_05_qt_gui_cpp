@@ -5,5 +5,6 @@
         <file>icons/readable.png</file>
         <file>icons/save.png</file>
         <file>icons/writable.png</file>
+        <file>icons/enable.png</file>
     </qresource>
 </RCC>

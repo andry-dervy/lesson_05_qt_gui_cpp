@@ -11,7 +11,7 @@ bool KeyPressEvent::eventFilter(QObject* obj, QEvent* event)
 {
     if (event->type() == QEvent::KeyPress)
     {
-        QKeyEvent* keyEvent = static_cast<QKeyEvent*>(event);
+        auto keyEvent = static_cast<QKeyEvent*>(event);
 
         if(keyEvent == nullptr) return false;
 
